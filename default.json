@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "pin": "update-lockfile",
+  "separateMinorPatch": true,
+  "rebaseConflictedPrs": true,
+  "masterIssue": true,
+  "patch": {
+    "enabled": false
+  }
+}
