@@ -2,7 +2,7 @@
   "extends": [
     "config:base"
   ],
-  "rangeStrategy": "update-lockfile",
+  "rangeStrategy": "replace",
   "separateMinorPatch": true,
   "rebaseConflictedPrs": true,
   "masterIssue": true,
